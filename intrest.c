@@ -13,5 +13,8 @@ int main()
     si=(p*r*t)/100 ;
     printf("the si of thr given principle amount will be:%f",si);
     a=p*(pow((1+r/100),t));
-    ci=a-p
+    ci=a-p;
+    printf("\n compound intrest=%f",ci);
+
+    return 0;
 }
